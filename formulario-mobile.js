@@ -1606,4 +1606,20 @@ Assinatura digital registrada
 };
 
 export default MobileForm;
+
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+
+const rootElement = document.getElementById('root');
+if (rootElement) {
+  const root = ReactDOM.createRoot(rootElement);
+  root.render(
+    <React.StrictMode>
+      <MobileForm />
+    </React.StrictMode>
+  );
+} else {
+  console.error('Elemento #root não encontrado no HTML!');
+}
+
                     
