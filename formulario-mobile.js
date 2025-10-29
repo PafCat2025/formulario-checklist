@@ -1,3 +1,5 @@
+import React from "https://esm.sh/react@18";
+import ReactDOM from "https://esm.sh/react-dom@18/client";
 import { useState, useRef, useEffect } from 'react';
 import { ChevronRight, ChevronLeft, Check, QrCode } from 'lucide-react';
 
