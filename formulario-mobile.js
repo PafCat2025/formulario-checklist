@@ -521,7 +521,7 @@ Assinatura digital registrada
     };
     
     try {
-      const url = 'https://script.google.com/macros/s/AKfycbw9PmuTPwSp8hfVCpXSnQd3eEPUeCfX_z2yGG7eVIxq96TcbdpzokgoIzB_ps78C93Blg/exec';
+      const url = 'https://script.google.com/macros/s/AKfycbxShdShLHmvgFpOLppONeeSnEmF-sK9HvXk9RytbHUQOLSbH0RpPj1onG_8CC2nyqQ4/exec';
       
       // Mostra loading
       const btnEnviar = document.querySelector('button[disabled]');
